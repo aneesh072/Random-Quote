@@ -9,7 +9,7 @@ function newQuote(){
         console.log(result);
         quote.innerText = result.content;
         authorBy.innerText = result.author;
-        tag.innerText = result.tags;
+        tag.innerText = "#" + result.tags;
     })
 }
 
